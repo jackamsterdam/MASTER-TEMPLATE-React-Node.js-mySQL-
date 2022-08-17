@@ -1,6 +1,6 @@
 import Logo from "../Logo/Logo";
 import "./Header.css";
-import {Typography} from '@material-ui/core'
+import { Typography } from '@mui/material';
 
 function Header(): JSX.Element {
     return (
