@@ -6,8 +6,12 @@ function Routing(): JSX.Element {
     return (
         <Routes>
           <Route path="/home" element={<Home/>}/>
-          <Route path="/" element={<Navigate to="/home" />} />
 
+          {/* <Route path='/product-list' element={<ProductList/>}/>
+          <Route path="/add-product" element={<AddProduct/>} /> */}
+
+
+          <Route path="/" element={<Navigate to="/home" />} />
           <Route path="*" element={<PageNotFound/>} />
         </Routes>
     );

@@ -11,7 +11,7 @@ import logRequests from './02-middleware/log-request'
 import sanitize from './02-middleware/sanitize'
 import ErrorModel from './03-models/error-model'
 import controller from './06-controllers/controller'
-import helmet from 'helmet'
+// import helmet from 'helmet'
 // import path from 'path'
 
 const server = express() 
@@ -22,7 +22,7 @@ if (config.isDevelopment) {
 server.use('/',expressRateLimit({windowMs: 1000, max: 10, message: 'Rate exceeded. Please try again soon'}))
 
 
-server.use(helmet())
+// server.use(helmet())
 server.use(express.json())
 server.use(expressFileUpload())
 server.use(sanitize)
