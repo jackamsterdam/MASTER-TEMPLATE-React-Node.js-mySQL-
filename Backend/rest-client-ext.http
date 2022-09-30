@@ -1,4 +1,5 @@
-###REST CLIENT Extension
+###REST CLIENT Extension - download the extension and test REST here (additional option to POSTMAN)
+
 GET http://localhost:3001/api/...
 Authorization:
 
@@ -42,7 +43,7 @@ DELETE http://localhost:3001/api/products/99
 
 
 
-###Error checks:
+###! Error checks:
 
 ### 404 ErrorModel   Resource with id ____________ not found.
 GET http://localhost:3001/api/products/123412322432432423
