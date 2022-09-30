@@ -1,6 +1,6 @@
 import {combineReducers, createStore} from 'redux'
 // import { productsReducer } from "./ProductsState";
-import {composeWithDevTools} from 'redux-devtools-extension'
+import { composeWithDevTools } from '@redux-devtools/extension';
 
 
 // Creating reducers object from all our reducers: 

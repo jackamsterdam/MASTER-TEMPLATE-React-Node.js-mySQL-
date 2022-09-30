@@ -9,9 +9,9 @@
     color: #0171B2;
 }
 
-.Footer .GitHub {
+/* .Footer .GitHub {
     color: #eee;
-}
+} */
 
 @media only screen and (max-width:700px) {
     .Footer .SmallerTxt {
