@@ -1,6 +1,8 @@
 ## MASTER-TEMPLATE- (without auth) -React-Node.js-MySQL by Jack Amsterdam in Typescript for a Full Stack Project **&copy;**
 # This is mainly a template that I made to start a new Full Stack project using the MERN stack.
 
+![This is an image](Frontend/src/Assets/Images/logo.png)
+
 **If you are interested in a template with Angular and Mongodb, then please see my other templates.
 
 <!-- ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg) -->
