@@ -3,6 +3,8 @@
 
 **If you are interested in a template with Angular and Mongodb, then please see my other templates.
 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 
 ## ___________________ Frontend/Backend Project by Jack Amsterdam in TYPESCRIPT **&copy;**
 
